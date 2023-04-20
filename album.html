@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our's Album ♡</title>
+    <link rel="stylesheet" href="assets/css/albmstyle.css">
+    <link rel="stylesheet" href="assets/responsive/albmres.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="https://static.wixstatic.com/media/3ea9ff_4f57a742dfff458a8fc7eb105346a891~mv2.png/v1/fill/w_556,h_316,al_c,lg_1,q_85,enc_auto/3ea9ff_4f57a742dfff458a8fc7eb105346a891~mv2.png">
+</head>
+<body>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <script>
+        function showTime(){
+            var date = new Date();
+            var h = date.getHours(); // 0 - 23
+            var m = date.getMinutes(); // 0 - 59
+            var s = date.getSeconds(); // 0 - 59
+            var session = "AM";
+            if(h == 0){
+                h = 12;
+            }
+            if(h > 12){
+                h = h - 12;
+                session = "PM";
+            }
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+            var time = h + ":" + m + ":" + s + " " + session;
+            document.getElementById("MyClockDisplay").innerText = time;
+            document.getElementById("MyClockDisplay").textContent = time;
+            setTimeout(showTime, 1000);
+        }
+        showTime();
+    </script>
+    <div class="about" id="welcome">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="img/profile.jpeg" alt="profile">
+                <a class="navbar-brand" href="beranda.html"> | Christina Seah</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="album.html">Welcome</a>
+                    <a class="nav-link" href="#image">Images</a>
+                    <div class="logout">
+                        <a class="nav-link" href="beranda.html">Home</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="header">
+        <!--Content before waves-->
+        <div class="inner-header">
+        <!--Just the logo.. Don't mind this-->
+        <h2>WELCOME TO</h2>
+        <h1>♡ OUR'S ALBUM ♡</h1>
+        </div>
+        
+        <!--Waves Container-->
+        <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+        </svg>
+        </div>
+        <!--Waves end-->
+        
+        </div>
+        <!--Header ends-->
+        
+        <!--Content starts-->
+        <div class="content">
+            <br>
+            <p>Create By SugepIMissYou</p>
+        </div>
+        <audio hidden controls autoplay loop id="myAudio">
+            <source src="audio/album.mp3" type="audio/mp3">
+        </audio>
+        <div class="popup">
+            <br>
+            <h2>Welcome</h2>
+            <p>
+                Ini adalah beberapa kumpulan foto kita..
+            </p>
+            <button type="submit" onclick="playAudio()" id="close">Lanjut</button>
+        </div>
+        <!--Content ends-->
+        <!--iMAGE-->
+        <div class="imagess" id="image">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+        <div class="uh">
+        <a href="#welcome"><img id="uh" src="https://img.icons8.com/ios-filled/50/null/circled-chevron-up.png"/></a></div>
+            <div class="csprof">
+                <img src="imgalbum/profilecs.jpg">
+            </div>
+            <div class="agusprof">
+                <img src="imgalbum/profileags.jpg">
+            </div>
+        <div class="slide-image">
+            <div class="slider">
+                <img src="imgalbum/1.jpg" class="img1">
+                <img src="imgalbum/2.jpg" class="img1">
+                <img src="imgalbum/3.jpg" class="img1">
+                <img src="imgalbum/4.jpg" class="img1">
+                <img src="imgalbum/5.jpg" class="img1">
+            </div>
+        </div>
+        <div class="slide-image2">
+            <div class="slider2">
+                <img src="imgalbum/6.jpg" class="img1">
+                <img src="imgalbum/7.jpg" class="img1">
+                <img src="imgalbum/8.jpg" class="img1">
+                <img src="imgalbum/9.jpg" class="img1">
+                <img src="imgalbum/10.jpg" class="img1">
+            </div>
+        </div>
+        <div class="bingkai">
+        <div class="bingkai1">
+            <img src="corner-frame/kiri-tutup.png">
+        </div>
+        <div class="bingkai2">
+            <img src="corner-frame/kiri-tutup.png">
+        </div>
+        <div class="bingkai3">
+            <img src="corner-frame/kanan-tutup.png">
+        </div>
+        <div class="bingkai4">
+            <img src="corner-frame/kanan-tutup.png">
+        </div>
+        <div class="bingkai5">
+            <img src="corner-frame/kiri-buka.png">
+        </div>
+        <div class="bingkai6">
+            <img src="corner-frame/kanan-buka.png">
+        </div>
+    </div>
+        </div>
+        <!--end image-->
+    <script src="assets/js/albmscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

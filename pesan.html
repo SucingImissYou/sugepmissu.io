@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages For You</title>
+    <link rel="stylesheet" href="assets/css/messtyle.css">
+    <link rel="stylesheet" href="assets/responsive/mesres.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20190129/ourmid/pngtree-message-vector-icon-png-image_355784.jpg">
+</head>
+<body>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <script>
+        function showTime(){
+            var date = new Date();
+            var h = date.getHours(); // 0 - 23
+            var m = date.getMinutes(); // 0 - 59
+            var s = date.getSeconds(); // 0 - 59
+            var session = "AM";
+            if(h == 0){
+                h = 12;
+            }
+            if(h > 12){
+                h = h - 12;
+                session = "PM";
+            }
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+            var time = h + ":" + m + ":" + s + " " + session;
+            document.getElementById("MyClockDisplay").innerText = time;
+            document.getElementById("MyClockDisplay").textContent = time;
+            setTimeout(showTime, 1000);
+        }
+        showTime();
+    </script>
+    <div class="about" >
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="img/profile.jpeg" alt="profile">
+                <a class="navbar-brand" href="beranda.html"> | Christina Seah</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="beranda.html">Home</a>
+                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="album.html">Album</a>
+                    <a class="nav-link" href="pesan.html">Message</a>
+                    <div class="logout">
+                        <a class="nav-link" href="index.html">Logout</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="title">
+        <h1>Last Message ♡</h1>
+        <p>*Warning : terakhir akan diubah pada 20 Mei 2023</p>
+    </div>
+    <div class="pesan-ku">
+        <div class="isi-pesan">
+            <h1>Baca Dengan Baik Ya..!</h1>
+            <p>Hai.. Apakabarnya?? Semoga baik-baik aja ya disana.. Gimana rasanya setelah aku udah ga ada? Pasti jauh lebih baik kan hehe..
+                Setelah kamu pergi, keadaan ku memburuk :).. Apalagi kamu pergi lalu mencintai orang lain dengan hebat.. Kamu terlihat
+                bahagia banget ya sama dia :D.. Semoga dia adalah orang yang terbaik buat kamu ya.. Aku ikhlas kalo memang kamu bahagia 
+                bersama dia :).. Yang bisa memberikan kamu apapun itu, barang, waktu, uang dll.. Bisa nge-treat kamu dengan baik.. Bukan seperti
+                aku yang miskin tidak punya apa-apa.. <br><br>
+                Aku saat ini paham, jika memang kamu masih ada rasa sayang ke aku, kamu tidak akan membuat aku seperti ini.. Semua usaha yang aku
+                lakukan untuk mempertahankan hubungan, ternyata hancur seketika karena kamu kenal dengan dia.. Apakah karena dia kamu jadi melupakan
+                aku??.. Dengan mudah kamu bisa berpindah hati, tanpa memikirkan hati orang yang benar-benar tulus dan berjuang untuk kamu.. Rela
+                kehilangan harga diri, menghabiskan waktu, semua yang dikorbankan hanya untuk kamu.. Mencintai kamu lebih dari diri aku sendiri.. Dan akhirnya aku sadar, bahwa kamu sudah tidak
+                melihat aku lagi.. Kamu mengenal dunia baru kamu, lembaran baru kamu.. Yang menurut kamu itulah lembaran yang terbaik.. <br><br>
+                Ini adalah pemberian ku yang terakhir, semoga kamu bisa menerimanya dengan baik.. Aku tidak akan lagi mengingat-ingat tentang kamu..
+                Hanya membuat aku jatuh sakit, membuat pikiran aku kacau, stress.. Semakin aku tahu tentang kamu, semakin membuat diri aku lebih sakit..
+                Mungkin kamu disana bisa merasakan apa yang namanya bahagia, bukan saat kamu bersama aku, hanya penderitaan tanpa kebahagiaan yang kamu rasakan.. <br><br>
+                Semoga kamu langgeng ya sama dia, bisa ke tahap yang lebih serius.. Mungkin kita ga bakal bertemu lagi.. Jaga diri kamu baik-baik yaa..
+                Selama apapun itu, aku tidak bisa berhenti mencintaimu.. Aku tetap selalu mencintaimu dalam keadaan apapun, walaupun kamu sudah tidak disampingku.. <br><br>
+                - Sugep Has Fallen -
+            </p>
+        </div>
+    </div>
+    <script src="assets/js/messcript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

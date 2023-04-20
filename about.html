@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About This  Website</title>
+    <link rel="stylesheet" href="assets/css/vstyle.css">
+    <link rel="stylesheet" href="assets/responsive/vres.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="https://cdn-brilio-net.akamaized.net/news/2022/06/18/231683/1771820-emot-love.jpg">
+</head>
+<body>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <script>
+        function showTime(){
+            var date = new Date();
+            var h = date.getHours(); // 0 - 23
+            var m = date.getMinutes(); // 0 - 59
+            var s = date.getSeconds(); // 0 - 59
+            var session = "AM";
+            if(h == 0){
+                h = 12;
+            }
+            if(h > 12){
+                h = h - 12;
+                session = "PM";
+            }
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+            var time = h + ":" + m + ":" + s + " " + session;
+            document.getElementById("MyClockDisplay").innerText = time;
+            document.getElementById("MyClockDisplay").textContent = time;
+            setTimeout(showTime, 1000);
+        }
+        showTime();
+    </script>
+    <div class="about" >
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="img/profile.jpeg" alt="profile">
+                <a class="navbar-brand" href="beranda.html"> | Christina Seah</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="beranda.html">Home</a>
+                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="album.html">Album</a>
+                    <a class="nav-link" href="pesan.html">Message</a>
+                    <div class="logout">
+                        <a class="nav-link" href="index.html">Logout</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="tentangweb">
+        <div class="isi">
+            <h2>♡ Tentang Website ♡</h2>
+            <p>Website ini spesial aku buat untuk hadiah ulang tahun kamu yang ke-20.
+                Ini dibangun semenjak kita berpisah, dan aku memulai dengan sendirinya.
+                Maaf, aku tidak bisa memberimu yang mewah dan mahal. Aku hanya bisa memberimu
+                sebuah website sederhana ini. Website ini aku buat selama 1 minggu lebih, semenjak
+                kamu pergi. Apapun yang aku buat di website ini, untuk membuat kamu senang dan bahagia.
+                <br><br>
+                Website ini, akan mulai berubah setelah hari ulang tahun kamu. Perubahan yang terjadi
+                adalah, website ini akan menjadi daily website. Dimana setiap isi dan pesannya akan berubah
+                setiap hari. Aku hanya berharap kamu setiap hari membuka website ini. Setiap pukul 23.00 Waktu Indonesia
+                website ini akan berubah dengan sendirinya. Aku harap kamu membukanya ♡.
+                <br><br><br>
+                - Sugep Still Here ♡ -
+                </p>
+                
+        </div>
+        <div class="imgs">
+            <img src="https://media.tenor.com/gwhJh9ZHjZIAAAAj/happy-bunny.gif" alt="isiweb">
+        </div>
+    </div>
+    <script src="assets/js/abourscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

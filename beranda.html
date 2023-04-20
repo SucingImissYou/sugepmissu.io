@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome! Cutiee</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/responsive/responsivee.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="img/profile.jpeg">
+</head>
+<body>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <script>
+        function showTime(){
+            var date = new Date();
+            var h = date.getHours(); // 0 - 23
+            var m = date.getMinutes(); // 0 - 59
+            var s = date.getSeconds(); // 0 - 59
+            var session = "AM";
+            if(h == 0){
+                h = 12;
+            }
+            if(h > 12){
+                h = h - 12;
+                session = "PM";
+            }
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+            var time = h + ":" + m + ":" + s + " " + session;
+            document.getElementById("MyClockDisplay").innerText = time;
+            document.getElementById("MyClockDisplay").textContent = time;
+            setTimeout(showTime, 1000);
+        }
+        showTime();
+    </script>
+    <div class="about" >
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="img/profile.jpeg" alt="profile">
+                <a class="navbar-brand" href="beranda.html"> | Christina Seah</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="beranda.html">Home</a>
+                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="album.html">Album</a>
+                    <a class="nav-link" href="pesan.html">Message</a>
+                    <div class="logout">
+                        <a class="nav-link" href="index.html">Logout</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+    </div>
+        <div class="welcome">
+            <h1>HI, WELCOMEE...!</h1>
+            <h2>Christina Seah,</h2>
+            <p>
+                Selamat datang di Official Website. Website ini dibuat spesial untuk ulang tahun
+                kamu ke-20. Sederhana, semoga kamu menyukainya yaa...
+            </p>
+            <p>
+                Follow for more.. <br>
+            <a href="https://www.instagram.com/icyes_" target="_blank"><img src="https://img.icons8.com/material/24/ffffff/instagram-new--v1.png"/></a>
+            <a href="https://www.instagram.com/_aguspurwnto" target="_blank"><img src="https://img.icons8.com/material/24/ffffff/instagram-new--v1.png"/></a>
+            </p>
+        </div>
+            <div class="img">
+                <img src="https://media.tenor.com/IXRjBiRK6LQAAAAi/happy-birthday-molang.gif" alt="WELCOME GIF">
+            </div>
+            <div class="popup">
+                <h1>INFO LOGIN</h1>
+                <br>
+                <h2>Selamat Datang</h2>
+                <p>
+                    Login Anda Sebagai Christina Seah Berhasil....
+                </p>
+                <button type="submit" onclick="playAudio()" id="close">Lanjut</button>
+            </div>
+        <audio hidden controls autoplay loop id="myAudio">
+            <source src="audio/cs.mp3" type="audio/mp3">
+        </audio>
+        <script src="assets/js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        
+</body>
+</html>

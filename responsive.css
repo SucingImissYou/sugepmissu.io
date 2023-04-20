@@ -1,0 +1,81 @@
+@media all and (max-width: 1000px) {
+    .background {
+        margin-right: 200px;
+        margin-left: 200px;
+        border: 3px solid rgb(172, 129, 89);
+        box-shadow: 
+        0 0 5px rgb(172, 129, 89),
+        0 0 5px rgb(172, 129, 89),
+        0 0 5px rgb(172, 129, 89),
+        0 0 5px rgb(172, 129, 89);
+    }
+    .atas h1 {
+        font-size: 30px;
+        text-shadow: 
+        0 0 5px rgb(172, 129, 89),
+        0 0 5px rgb(172, 129, 89),
+        0 0 5px rgb(172, 129, 89),
+        0 0 5px rgb(172, 129, 89)
+        ;
+    }
+}
+@media all and (max-width: 790px) {
+    body {
+        background-position: unset;
+    }
+    .background {
+        margin-top: 200px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .atas h1 {
+        font-size: 20px;
+    }
+    .login table td {
+        font-size: 15px;
+    }
+    .kirim a {
+        padding: 5px 25px;
+    }
+}
+@media all and (max-width: 600px) {
+    body {
+        background-size: unset;
+        background-position: 50%;
+    }
+    .background {
+        margin-top: 150px;
+        margin-right: 20px;
+        margin-left: 20px;
+        border: 3px solid rgb(139, 80, 24);
+        box-shadow: 
+        0 0 5px rgb(139, 80, 24),
+        0 0 5px rgb(139, 80, 24),
+        0 0 5px rgb(139, 80, 24),
+        0 0 5px rgb(139, 80, 24);
+    }
+    .atas {
+        margin-top: 16px;
+    }
+    .atas h1 {
+        font-size: 13px;
+    }
+    .login table td {
+        font-size: 10px;
+    }
+    .login input {
+        font-size: 10px;
+        height: 14px;
+        width: 100px;
+    }
+    .kirim a {
+        background-color: rgb(139, 80, 24);
+        color: white;
+        border: 2px solid rgb(139, 80, 24);
+        padding: 3px 10px;
+        font-size: 12px;
+    }
+    .note p {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,999 @@
+@media all and (max-width:1300px) {
+    .welcome {
+        left: 57px;
+        width: 610px;
+    }
+    .img {
+        left: 700px;
+    }
+}
+@media all and (max-width:1100px) {
+    .container-fluid .navbar-brand {
+        font-size: 25px !important;
+        margin-right: 120px;
+    }
+    .container-fluid img {
+        height: 32px;
+        width: 32px;
+    }
+    .clock {
+        top: 95px;
+        left:8.2%;
+        font-size: 24px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 475px;
+        height: 360px;
+        top: 190px;
+        left: 80px;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 40px;
+    }
+    .welcome p {
+        font-size: 15px;
+    }
+    .img {
+        top: 240px;
+        left: 590px;
+    }
+    .img img {
+        height: 270px;
+        width: 350px;
+    }
+}
+@media all and (max-width:1000px) {
+    .container-fluid .navbar-brand {
+        font-size: 25px !important;
+        margin-right: 120px;
+    }
+    .container-fluid img {
+        height: 32px;
+        width: 32px;
+    }
+    .clock {
+        top: 95px;
+        left:8.2%;
+        font-size: 24px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 475px;
+        height: 360px;
+        top: 190px;
+        left: 80px;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 40px;
+    }
+    .welcome p {
+        font-size: 15px;
+    }
+    .img {
+        top: 250px;
+        left: 580px;
+    }
+    .img img {
+        height: 250px;
+        width: 350px;
+    }
+}
+@media all and (max-width:991px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 60px;
+        height: 60px !important;
+        width: 100%;
+        z-index: 1;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+        background-color: black !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 24px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 20px;
+        height: 32px;
+        width: 32px;
+    }
+    .container-fluid {
+        background-color: rgba(255, 255, 255,0.6) !important;
+    }
+    .clock {
+        top: 35px;
+        left:78%;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 475px;
+        height: 360px;
+        top: 190px;
+        left: 80px;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 40px;
+    }
+    .welcome p {
+        font-size: 15px;
+    }
+    .img {
+        top: 240px;
+        left: 580px;
+    }
+    .img img {
+        height: 230px;
+        width: 300px;
+    }
+}
+@media all and (max-width:835px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 60px;
+        height: 60px !important;
+        width: 100%;
+        z-index: 1;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+        background-color: black !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 24px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 20px;
+        height: 32px;
+        width: 32px;
+    }
+    .container-fluid {
+        background-color: rgba(255, 255, 255,0.6) !important;
+    }
+    .clock {
+        top: 35px;
+        left:78%;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 495px;
+        height: 360px;
+        top: 150px;
+        left: 22%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 40px;
+    }
+    .welcome p {
+        font-size: 15px;
+    }
+    .img {
+        top: 49%;
+        left: 28%;
+    }
+    .img img {
+        height: 260px;
+        width: 330px;
+    }
+}
+@media all and (max-width:768px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 60px;
+        height: 60px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+        background-color: black !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 24px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 20px;
+        height: 32px;
+        width: 32px;
+    }
+    .container-fluid {
+        background-color: rgba(255, 255, 255,0.6) !important;
+    }
+    .clock {
+        top: 35px;
+        left:78%;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 495px;
+        height: 360px;
+        top: 150px;
+        left: 18%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 40px;
+    }
+    .welcome p {
+        font-size: 15px;
+    }
+    .img {
+        top: 55%;
+        left: 24%;
+    }
+    .img img {
+        height: 260px;
+        width: 330px;
+    }
+}
+@media all and (max-width:700px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 23px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 375px;
+        height: 270px;
+        top: 165px;
+        left: 23%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 24px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 450px;
+        left: 38%;
+    }
+    .img img {
+        height: 120px;
+        width: 160px;
+    }
+    .snowflake {
+        font-size: 1em;
+    }
+}
+@media all and (max-width:600px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 23px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 375px;
+        height: 270px;
+        top: 165px;
+        left: 19%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 24px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 450px;
+        left: 33%;
+    }
+    .img img {
+        height: 120px;
+        width: 160px;
+    }
+    .snowflake {
+        font-size: 1em;
+    }
+}
+@media all and (max-width:500px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 20px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 375px;
+        height: 270px;
+        top: 165px;
+        left: 12%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 24px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 450px;
+        left: 31%;
+    }
+    .img img {
+        height: 110px;
+        width: 150px;
+    }
+    .snowflake {
+        font-size: 1em;
+    }
+}
+@media all and (max-width:450px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 19px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 375px;
+        height: 270px;
+        top: 165px;
+        left: 8%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 24px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 450px;
+        left: 31%;
+    }
+    .img img {
+        height: 110px;
+        width: 150px;
+    }
+    .snowflake {
+        font-size: 1em;
+    }
+}
+@media all and (max-width:428px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 19px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 375px;
+        height: 270px;
+        top: 165px;
+        left: 6%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 24px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 450px;
+        left: 30%;
+    }
+    .img img {
+        height: 110px;
+        width: 150px;
+    }
+    .snowflake {
+        font-size: 1em;
+    }
+}
+@media all and (max-width:414px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 19px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 363px;
+        height: 270px;
+        top: 165px;
+        left: 6%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 24px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 450px;
+        left: 30%;
+    }
+    .img img {
+        height: 110px;
+        width: 150px;
+    }
+    .snowflake {
+        font-size: 1em;
+    }
+}
+@media all and (max-width:400px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 145px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 340px;
+        height: 220px;
+        top: 165px;
+        left: 8%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 17px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 9px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 400px;
+        left: 28%;
+    }
+    .img img {
+        height: 95px;
+        width: 135px;
+    }
+    .snowflake {
+        font-size: 1em;
+    }
+}
+@media all and (max-width:390px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 145px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .welcome {
+        width: 325px;
+        height: 220px;
+        top: 165px;
+        left: 8%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 17px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 9px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 400px;
+        left: 28%;
+    }
+    .img img {
+        height: 95px;
+        width: 135px;
+    }
+    .snowflake {
+        font-size: 1em;
+    }
+}
+@media all and (max-width:375px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 165px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .container-fluid button {
+        padding: 2px 9px;
+    }
+    .welcome {
+        width: 310px;
+        height: 210px;
+        top: 185px;
+        left: 8.5%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 17px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 9px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 420px;
+        left: 28%;
+    }
+    .img img {
+        height: 95px;
+        width: 135px;
+    }
+    .snowflake {
+        font-size: 0.8em;
+    }
+}
+@media all and (max-width:360px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 165px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .container-fluid button {
+        padding: 1px 5px;
+        position: absolute;
+        top: 10px;
+        left: 79%;
+    }
+    .welcome {
+        width: 295px;
+        height: 210px;
+        top: 185px;
+        left: 9%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 17px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 9px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 420px;
+        left: 25%;
+    }
+    .img img {
+        height: 95px;
+        width: 135px;
+    }
+    .snowflake {
+        font-size: 0.6em;
+    }
+}
+@media all and (max-width:330px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 80px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .container-fluid button {
+        padding: 1px 5px;
+        position: absolute;
+        top: 10px;
+        left: 79%;
+    }
+    .welcome {
+        width: 280px;
+        height: 210px;
+        top: 120px;
+        left: 7%;
+    }
+    .welcome h1, .welcome h2  {
+        font-size: 17px;
+    }
+    .welcome p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 9px;
+    }
+    .welcome a img {
+        width: 15px;
+        height: 15px;
+    }
+    .img {
+        top: 330px;
+        left: 25%;
+    }
+    .img img {
+        height: 95px;
+        width: 135px;
+    }
+    .snowflake {
+        font-size: 0.6em;
+    }
+}

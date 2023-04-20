@@ -1,0 +1,722 @@
+@media all and (max-width:1300px) {
+    .csprof , .agusprof {
+        top: 23cm;
+    }
+    .slide-image , .slide-image2 {
+        top: 34cm;
+    }
+    .bingkai1 {
+        top: 21.5cm;
+        left: 11cm;
+    }
+    .bingkai2 {
+        top: 27.3cm;
+        left: 5.2cm;
+    }
+    .bingkai3 {
+        top: 21.5cm;
+        left: 19.7cm;
+    }
+    .bingkai4 {
+        top: 27.3cm;
+        left: 25cm;
+    }
+    .bingkai5 {
+        top: 36.8cm;
+        left: 5.2cm;
+    }
+    .bingkai6 {
+        top: 36.8cm;
+        left: 25cm;
+    }
+}
+@media all and (max-width:1100px) {
+    .container-fluid .navbar-brand {
+        font-size: 25px !important;
+        margin-right: 120px;
+    }
+    .container-fluid img {
+        height: 32px;
+        width: 32px;
+    }
+    .clock {
+        top: 95px;
+        left:8.2%;
+        font-size: 24px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+}
+@media all and (max-width:1000px) {
+    .container-fluid .navbar-brand {
+        font-size: 25px !important;
+        margin-right: 120px;
+    }
+    .container-fluid img {
+        height: 32px;
+        width: 32px;
+    }
+    .clock {
+        top: 95px;
+        left:8.2%;
+        font-size: 24px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .isi {
+        width: 23cm;
+        height: 12cm;
+        left: 60px;
+    }
+    .imgs {
+        top: 340px;
+        left: 730px;
+    }
+}
+@media all and (max-width:991px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 60px;
+        height: 60px !important;
+        width: 100%;
+        z-index: 2;
+    }
+    .nav-link {
+        padding: 30px !important;
+        border-radius: 10px;
+        color: rgb(17, 16, 16) !important;
+        transition: 0.6s;
+    }
+    .nav-link:hover {
+        background-color: rgba(150, 231, 223, 0.425);
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+        background-color: rgb(167, 157, 157) !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 24px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 20px;
+        height: 32px;
+        width: 32px;
+    }
+    .container-fluid {
+        background-color: rgba(255, 255, 255,0.6) !important;
+    }
+    .clock {
+        top: 35px;
+        left:78%;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+        z-index: 3;
+    }
+}
+@media all and (max-width:835px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 60px;
+        height: 60px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 24px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 20px;
+        height: 32px;
+        width: 32px;
+    }
+    .container-fluid {
+        background-color: rgba(255, 255, 255,0.6) !important;
+    }
+    .clock {
+        top: 35px;
+        left:78%;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+}
+@media all and (max-width:768px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 60px;
+        height: 60px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 24px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 20px;
+        height: 32px;
+        width: 32px;
+    }
+    .container-fluid {
+        background-color: rgba(255, 255, 255,0.6) !important;
+    }
+    .clock {
+        top: 35px;
+        left:78%;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+}
+@media all and (max-width:700px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 23px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+        z-index: 2;
+    }
+}
+@media all and (max-width:600px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 23px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+}
+@media all and (max-width:500px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 20px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+}
+@media all and (max-width:450px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 19px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 125px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+}
+@media all and (max-width:428px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 19px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 70px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .bingkai1 , .bingkai2 , .bingkai3 , .bingkai4, .bingkai5, .bingkai6{
+        display: none;
+    }
+    .uh {
+        display: none;
+    }
+    .csprof {
+        top: 22cm;
+        left: 30%;
+    }
+    .csprof img {
+        height: 100px;
+        width: 100px;
+    }
+    .agusprof {
+        top: 22cm;
+        left: 52%;
+    }
+    .agusprof img {
+        height:100px ;
+        width: 100px
+    }
+    .img1 {
+        height: 200px;
+        width: 200px;
+    }
+    .slide-image, .slide-image2 {
+        width: 208px;
+    }
+    .slide-image {
+        top: 28cm;
+    }
+    .slide-image2 {
+        top: 34cm;
+    }
+    .inner-header h1 {
+        padding-top: 30px;
+        font-size: 40px;
+    }
+    .inner-header h2 {
+        padding-top: 175px;
+        font-size: 50px;
+    }
+}
+@media all and (max-width:414px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 19px !important;
+        margin-left: 39px;
+        margin-top: 10px;
+    }
+    .container-fluid img {
+        top: 20px;
+        left: 20px;
+        height: 22px;
+        width: 22px;
+    }
+    .clock {
+        top: 70px;
+        left:50%;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .csprof, .agusprof {
+        top: 21cm;
+    }
+}
+@media all and (max-width:400px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 145px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+}
+@media all and (max-width:390px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 70px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .csprof {
+        top: 20cm;
+        left: 30%;
+    }
+    .csprof img {
+        height: 100px;
+        width: 100px;
+    }
+    .agusprof {
+        top: 20cm;
+        left: 52%;
+    }
+    .agusprof img {
+        height:100px ;
+        width: 100px
+    }
+    .img1 {
+        height: 200px;
+        width: 200px;
+    }
+    .slide-image, .slide-image2 {
+        width: 208px;
+    }
+    .slide-image {
+        top: 26cm;
+    }
+    .slide-image2 {
+        top: 32cm;
+    }
+    .inner-header h1 {
+        padding-top: 30px;
+        font-size: 40px;
+    }
+    .inner-header h2 {
+        padding-top: 175px;
+        font-size: 50px;
+    }
+}
+@media all and (max-width:375px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 70px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .container-fluid button {
+        padding: 2px 9px;
+    }
+    .csprof, .agusprof {
+        top: 19cm;
+    }
+    .slide-image {
+        top: 25cm;
+    }
+    .slide-image2 {
+        top: 31cm;
+    }
+}
+@media all and (max-width:360px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 70px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .container-fluid button {
+        padding: 1px 5px;
+        position: absolute;
+        top: 10px;
+        left: 79%;
+    }
+    .inner-header h2 {
+        font-size: 35px;
+    }
+    .inner-header h1 {
+        font-size: 30px;
+    }
+    .csprof , .agusprof {
+        top: 18cm;
+    }
+    .slide-image {
+        top: 24cm;
+    }
+    .slide-image2 {
+        top: 29cm;
+    }
+    .slide-image, .slide-image2 {
+        width: 157.5px;
+    }.img1 {
+        height: 150px;
+        width: 150px;
+    }
+}
+@media all and (max-width:320px) {
+    .navbar {
+        position: fixed !important;
+        line-height: 30px;
+        height: 30px !important;
+        width: 100%;
+    }
+    .navbar-collapse {
+        line-height: 10px !important;
+    }
+    .container-fluid .navbar-brand {
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .container-fluid img {
+        top: 18px;
+        height: 25px;
+        width: 25px;
+    }
+    .clock {
+        top: 70px;
+        left:50%;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148), 
+        0 0 2px rgb(173, 255, 148);
+    }
+    .container-fluid button {
+        padding: 1px 5px;
+        position: absolute;
+        top: 10px;
+        left: 79%;
+    }
+}

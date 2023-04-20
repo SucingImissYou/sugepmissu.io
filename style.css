@@ -1,0 +1,120 @@
+body {
+    background-image: url("img/yes.jpg");
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.background {
+    background-color: rgba(19, 17, 17, 0.7);
+    border: 3px solid rgb(238, 204, 160);
+    border-radius: 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 150px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    box-shadow: 
+    0 0 5px rgb(238, 204, 160),
+    0 0 10px rgb(238, 204, 160),
+    0 0 15px rgb(238, 204, 160),
+    0 0 15px rgb(238, 204, 160);
+    animation: agus 4s infinite;
+}
+@keyframes agus { 
+    0% {
+    box-shadow: 
+    0 0 5px rgb(238, 204, 160),
+    0 0 10px rgb(238, 204, 160),
+    0 0 15px rgb(238, 204, 160),
+    0 0 15px rgb(238, 204, 160);
+    }
+    25% {
+    box-shadow: 
+    0 0 10px rgb(238, 204, 160),
+    0 0 15px rgb(238, 204, 160),
+    0 0 20px rgb(238, 204, 160),
+    0 0 20px rgb(238, 204, 160);
+    }
+    50% {
+        box-shadow: 
+        0 0 15px rgb(238, 204, 160),
+        0 0 20px rgb(238, 204, 160),
+        0 0 25px rgb(238, 204, 160),
+        0 0 25px rgb(238, 204, 160);
+    }
+    75% {
+        box-shadow: 
+        0 0 30px rgb(238, 204, 160),
+        0 0 35px rgb(238, 204, 160),
+        0 0 40px rgb(238, 204, 160),
+        0 0 40px rgb(238, 204, 160);
+    }
+    90% {
+            box-shadow: 
+            0 0 15px rgb(238, 204, 160),
+            0 0 20px rgb(238, 204, 160),
+            0 0 25px rgb(238, 204, 160),
+            0 0 25px rgb(238, 204, 160);
+    }
+}
+.atas {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.atas h1 {
+    color: rgb(238, 204, 160);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 
+    0 0 5px rgb(187, 152, 112),
+    0 0 5px rgb(187, 152, 112),
+    0 0 5px rgb(187, 152, 112),
+    0 0 5px rgb(187, 152, 112);
+}
+.login {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.login input {
+    color: darkcyan;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid rgb(180, 241, 241);
+    border-radius: 10px;
+}
+.kirim {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.kirim a {
+    text-decoration: none;
+    color: rgb(238, 204, 160);
+    background-color: black;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.kirim a:hover {
+    color: black;
+    background-color: rgb(238, 204, 160);
+    border: 2px solid rgb(238, 204, 160);
+    box-shadow: 
+    0 0 5px rgb(238, 204, 160),
+    0 0 15px rgb(238, 204, 160),
+    0 0 15px rgb(238, 204, 160),
+    0 0 20px rgb(238, 204, 160);
+}
+.note {
+    text-align: center;
+    padding-top: 20px;
+}
+.note p {
+    color: white;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
